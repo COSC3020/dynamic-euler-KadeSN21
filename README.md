@@ -16,4 +16,5 @@ but you need to go beyond that.
 
 ## Runtime Analysis
 
-What is the worst-case big $\Theta$ time complexity of your algorithm?
+What is the worst-case big $\Theta$ time complexity of your algorithm? 
+The worst-case $\Theta$ of this algorithm is $\Theta(n)$, the while loop in "factorial" itterates from 2 to $n$, for a total of $n-1$ itterations, and the for loop in "e" itterates over the "fact" array which has a size of $n + 1$, so we have $\Theta(2n)$, dropping the constant, we are left with a final worst-case $\Theta$ complexity of $\Theta(n)$.
